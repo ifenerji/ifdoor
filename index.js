@@ -15,11 +15,11 @@ app.post('/api/frontdoor', (req, res) => {
   openDoor()
     .then(r => {
       res.statusCode = 200
-      res.send({ message: 'Door opened' })
+      res.send({ message: 'Door opened.' })
     })
     .catch(e => {
       res.statusCode = 500
-      res.send({ message: 'Something went wrong while openind door.' })
+      res.send({ message: 'Something went wrong while opening door.' })
     })
 })
 
