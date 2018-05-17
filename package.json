@@ -1,12 +1,16 @@
 {
   "name": "ifdoor",
   "version": "1.0.0",
+  "author": "Ismail Demirbilek <ce.demirbilek@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ifenerji/ifdoor.git"
+  },
   "description": "Remote door opening web server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
