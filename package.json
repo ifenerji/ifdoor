@@ -1,0 +1,15 @@
+{
+  "name": "ifdoor",
+  "version": "1.0.0",
+  "description": "Remote door opening web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "rpi-gpio": "^0.9.1"
+  }
+}
