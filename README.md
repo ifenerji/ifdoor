@@ -19,7 +19,9 @@ Opens door.
 Endpoints require api-key. Send api key, defined with `API_KEY` environment variable, via `x-apikey` header.
 
 ### Example 
-curl -H x-apikey="secret-api-key" http://localhost:8980/api/frontdoor
+```bash
+$ curl -H x-apikey="secret-api-key" http://localhost:8980/api/frontdoor
+```
 
 ### Author
 Ismail Demirbilek
