@@ -16,7 +16,7 @@ $ npm start
 Opens door.
 
 ### Authentication
-Endpoints requires api-key. Send api key defined with `API_KEY` environment variable with `x-apikey` header.
+Endpoints require api-key. Send api key, defined with `API_KEY` environment variable, via `x-apikey` header.
 
 ### Example 
 curl -H x-apikey="secret-api-key" http://localhost:8980/api/frontdoor
